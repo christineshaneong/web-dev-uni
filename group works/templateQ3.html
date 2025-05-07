@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    Name:
+    Matrix No:
+    Section:
+    -->
+
+    <style>
+        /* Your Answer */
+		.header{
+			width: auto;
+			background-color: maroon;
+			color: white;
+			display: flex;
+			justify-content: left;
+			align-items: center;
+		}
+		.header img {
+			width: 30px;
+			height: auto;
+			margin: 10px;
+		}
+		.navigation {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px;
+		}
+		.navigation a {
+    		color: black;
+    		margin-right: 10px;
+		}
+		.navigation img{
+			margin-left: 200px;
+		}
+		.grid{
+			display: grid;
+			grid-template-rows: 1;
+			grid-template-columns: 3;
+		}
+		.menu{
+			grid-column-start: 2;
+			grid-column-end: 3;
+		}
+		.menu ul{
+			list-style-type: none;
+		}
+		.menu li{
+			border:1px solid white;
+			background-color:antiquewhite;
+			padding: 10px;
+		}
+		.menu a{
+			color:black;
+			margin-right: 50px;
+		}
+		.article{
+			grid-column-start: 1;
+			grid-column-end: 2;
+			grid-row-start: 1;
+		}
+		.footer{
+			background-color: maroon;
+			height: 30px;
+			color: white;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+    </style>
+
+</head>
+<body>
+
+<div class="header">
+	<img src="./img/contact_us.png"/> &nbsp;&nbsp;+6&nbsp;07-553&nbsp;3333 , corporate@utm.my
+	
+</div>
+	
+<div class="navigation">
+	<a href="#">UTM Corporate Info </a>
+    <a href="#">Facts and Figures</a>
+    <a href="#">Administration</a>
+	<a href="#">Faculties</a>
+	<img src="./img/logo-utm.png"/>	
+</div>
+<hr>
+
+	
+<div class="grid">
+	<div class="menu">
+    	<ul>
+			<li><a href='#'> Faculty of Engineering</a></li>
+			<li><a href='#'> Faculty of Social sciences</a></li>
+     	 	<li><a href='#'> Faculty of Science</a></li>
+    	</ul>
+	</div>
+
+	<div class="article">
+		<h1>About UTM</h1>
+		<p>Universiti Teknologi Malaysia (UTM) is a leading innovation-driven entrepreneurial research university in engineering science and technology.It is located both in Kuala Lumpur, the capital city of Malaysia and Johor Bahru,the southern city in Iskandar Malaysia, which is a vibrant economic corridor in the south of Peninsular Malaysia.</p>
+	</div>
+</div>
+
+<div class="footer">
+		Copyright &nbsp; ©2022 &nbsp;Universiti Teknologi Malaysia
+</div>
+	
+</body>
+</html>
+
+
