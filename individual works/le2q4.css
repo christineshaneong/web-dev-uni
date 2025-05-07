@@ -1,0 +1,27 @@
+caption{
+    text-align: center;
+    caption-side: top;
+    color: black;
+}
+table,th{
+    background-color: white;
+    border: 1px solid green;
+    color: white;
+    margin:auto;
+}
+th{
+    background-color: green;
+    border: 1px solid green;
+}
+td{
+    border: 1px solid green;
+}
+tr:nth-child(even){
+    background-color: yellow;
+    border: 1px solid green;
+    color: red;
+}
+tr:nth-child(odd){
+    background-color: black;
+    border:1px solid green;
+}

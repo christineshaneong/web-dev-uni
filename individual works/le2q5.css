@@ -1,0 +1,16 @@
+
+div{
+    background-color: pink;
+    width: 500px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+    outline: 25px double red;
+}
+ol > ol{
+    color: green;
+}
+ol > ol > ol{
+    color: blue;
+    font-style:italic;
+}
